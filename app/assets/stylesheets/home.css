@@ -1,0 +1,113 @@
+div.header2 {
+	background-color: #B32010;
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 78px; height: 280px;
+	margin-left:-13px; position: relative;
+}
+
+
+div.bodyWrap { background: #252525; color: #ccc; }
+table.bodyContentWrap { width: 100%; border-collapse: separate; border-spacing: 20px; }
+table.bodyContentWrap td { width: 50%; min-height: 300px; padding: 20px; background: #111; border: 1px solid #777; }
+div.bodyRightInner, div.bodyLeftInner { padding: 15px; }
+table.bodyContentWrap td .csc-header h3 { padding: 0 0 5px 0; margin: 0 0 100px 0;color: #ddd; border-bottom: 1px solid #D31F26; }
+
+div.slideshowWrapper { width: 980px; height: 380px; background-color: #a52a2a; }
+div.slideshowWrapper div.slide {
+	width: 980px;
+	height: 380px;
+	position: absolute;
+	top: 0;
+	background-color: #a52a2a;
+}
+
+div.slideshowWrapper div.textsWrap {
+	width: 540px; height: 180px; position: absolute; bottom: 25px;
+}
+
+div.slideshowWrapper div.textsWrapInner {
+	padding: 20px;
+	position: absolute; right: 0; bottom: 30px; width: 500px;
+	font-family: arial,helvetica,sans-serif;
+	background: url(transparent_back50.png) right top repeat;
+}
+
+div.slideshowWrapper p.slideTextBig { font-size: 34px; line-height: 32px; color: #fff; }
+div.slideshowWrapper p.slideTextSmall { font-size: 22px; margin: 10px 0 0 0; color: #ccc; }
+
+div.slideshowWrapper a {
+	display: block; padding: 5px 25px 5px 10px; color: #eee;
+	position: absolute; right: 20px; bottom: 0;
+	background: url(arrow_right_white_24x16.png) left 5px no-repeat #D31F26;
+}
+
+div.slideshowWrapper a:hover { text-decoration: none; }
+
+div.stageSlidingCe {
+	width: 720px; height: 260px;
+	overflow: hidden; z-index: 3;
+	position: absolute; left: 0; top: 10px;
+}
+.stageSlidingCe ul.slides { width: 220px; float: left; }
+.stageSlidingCe ul.slides li {
+	width: 220px; height: 68px; position: relative; left: -146px;
+}
+.stageSlidingCe ul.slides li.slide2 { top: -4px; }
+.stageSlidingCe ul.slides li.slide3 { top: -8px; }
+.stageSlidingCe ul.slides li.slide4 { top: -12px; }
+
+
+.stageSlidingCe ul.slides .icon {
+	display: block; width: 60px; height: 60px;
+	margin: 0px 10px 0px 0px; float: right;
+	background: url(trigger.png) right top no-repeat transparent;
+}
+.stageSlidingCe ul.slides .icon-badge { background-position: right -60px; }
+.stageSlidingCe ul.slides .icon-chart { background-position: right -120px; }
+.stageSlidingCe ul.slides .icon-ladder { background-position: right -180px; }
+.stageSlidingCe ul.slides li.teasing .slideContent { display:none; }
+.stageSlidingCe ul.slides li.expanding-in .iconLabelWrap,
+.stageSlidingCe ul.slides li.expanded .iconLabelWrap { background-position: right -72px; }
+.stageSlidingCe ul.slides .label {
+	display: block; width: 200px; padding: 0;
+	position: absolute; right: -30px; top: 28px;
+	color: #a52a2a; text-transform: uppercase; font-weight: bold;
+}
+.stageSlidingCe div.iconLabelWrap {
+	width: 220px; height: 68px; position: absolute; left: 0px; top: 0; z-index: 20;
+	background: url(stagesliding_back2.png) right top no-repeat;
+}
+
+.stageSlidingCe .slideContent {
+	position: absolute; left: -600px;
+	width: 720px; height: 260px;
+	background: url("bgr_stageSlidingCe_slideTrigger.png") no-repeat scroll left top transparent;
+	z-index: 0;
+}
+.stageSlidingCe .slide1 .slideContent { top: 0; background-position: left top; }
+.stageSlidingCe .slide2 .slideContent { top: -64px; background-position: left 64px;}
+.stageSlidingCe .slide3 .slideContent { top: -128px; background-position: left 128px;}
+.stageSlidingCe .slide4 .slideContent { top: -192px; background-position: left 192px;}
+.stageSlidingCe .slideContentInner {
+	width: 575px;   
+	height: 235px; 
+	background-color: #fff;
+	padding: 10px 20px;
+	margin-left: 100px;
+	border:1px solid #B32010;
+}
+
+.stageSlidingCe .slideContent .slideContentInner h3 {
+	background:#B32010;
+	color:#fff;
+	margin: -10px -20px 0px -20px; padding: 15px 0px 0px 20px; border-bottom: 1px solid #B32010;
+	font-size: 16px;
+}
+.stageSlidingCe .slideContent .slideContentInner img { display: block; margin: 0 0 10px 0; }
+.stageSlidingCe .slideContent .slideContentInner p { margin: 0 0 5px 0; line-height: 18px;}
+.stageSlidingCe .slideContent .slideContentInner a.more {
+	color: #FC182A; font-weight: bold; padding: 0 17px 0 0;
+	background: url(arrow_right.png) left 2px no-repeat;
+}
+

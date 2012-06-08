@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technology</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+      <div class="span-24 header">
+        <%= render 'layouts/globalheader'%>
+      </div>
+
+      <div class="span-24 body">
+        <%= yield %>
+      </div>
+
+      <div class="span-24 footer">
+        <%= render 'layouts/globalfooter'%>
+      </div>
+</body>
+</html>

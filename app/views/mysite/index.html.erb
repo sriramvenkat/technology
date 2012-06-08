@@ -1,0 +1,256 @@
+<%= stylesheet_link_tag('styles','print','menu','smallslider', 'likebuttons','a','script')%>
+<%= javascript_include_tag('menujquery', 'menu','jqfade')%>
+<html>
+<body>
+<section id="wrapper">
+<div id="menu">
+		<ul class="menu">
+			<li><a href="Home"><span>Home</span></a></li>
+			<li><a href="WhoWeAre" class="parent"><span>About Us</span></a>
+				<div>
+				<ul>
+					<li><a href="WhoWeAre"><span>Who</span></a></li>
+					<li><a href="ContactUs"><span>Contact Us</span></a></li>
+					<li><a href="Jobs"><span>Jobs</span></a></li>
+				</ul>
+				</div>
+			</li>
+			<li><a href="HowWeDoIt"><span>How We Do It</span></a></li>
+			<li><a href="Services" class="parent"><span>Services</span></a>
+				<div>
+				<ul>
+				<li><a href="MobileDevelopment" class="parent"><span>Mobile Development</span></a>
+					<div>
+					<ul>
+						<li><a href="AndroidApplicationDevelopment"><span>Android App. Development</span></a></li>
+						<li><a href="iPhoneApplicationDevelopment"><span>IPhone App. Development</span></a></li>
+						<li><a href="iPadApplicationDevelopment"><span>IPad App. Development</span></a></li>
+						<li><a href="BlackberryApplicationDevelopment"><span>BlackBerry App. Development</span></a></li>
+						<li><a href="WindowsApplicationDevelopment"><span>Windows App. Development</span></a></li>
+						<li><a href="SymbianApplicationDevelopment"><span>Symbian App. Development</span></a></li>
+						<li><a href="MobileDevelopment"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="WebDevelopment" class="parent"><span>Web Development</span></a>
+					<div>
+					<ul>
+						<li><a href="RailsDevelopment"><span>Ruby on Rails Development</span></a></li>
+						<li><a href="WebDevelopment"><span>PHP Web Development</span></a></li>
+						<li><a href="WebDevelopment"><span>Web App. Development</span></a></li>
+						<li><a href="WebDevelopment"><span>Java Web Development</span></a></li>
+						<li><a href="WebDevelopment"><span>Offshore Web Development</span></a></li>
+						<li><a href="CakePHPDevelopment"><span>Cakephp Web Development</span></a></li>
+						<li><a href="WebDevelopment"><span>AJAX Development</span></a></li>
+						<li><a href="WebDevelopment"><span>C/C++ Development</span></a></li>
+						<li><a href="WebDevelopment"><span>Flash Development</span></a></li>
+						<li><a href="WebDevelopment"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="SoftwareDevelopment" class="parent"><span>Software Development</span></a>
+				<div>
+				<ul>
+				<li><a href="RichAppDevelopment" class="parent"><span>Rich Int.Application Development</span></a>
+					<div>
+					<ul>
+					<li><a href="Html5Development"><span>HTML5 Development</span></a></li>
+					<li><a href="Css3Development"><span>CSS3 Development</span></a></li>
+					<li><a href="RichAppDevelopment"><span>Flex Application Development</span></a></li>
+					<li><a href="RichAppDevelopment"><span>Flash Development</span></a></li>
+					<li><a href="RichAppDevelopment"><span>Ajax Application Development</span></a></li>
+					<li><a href="RichAppDevelopment"><span>Social Networking Application</span></a></li>
+					<li><a href="RichAppDevelopment"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="DatabaseDesign" class="parent"><span>Database Design &amp; Development</span></a>
+					<div>
+					<ul>
+					<li><a href="DatabaseDesign"><span>Mongo DB Development</span></a></li>
+					<li><a href="DatabaseDesign"><span>Cassandra Development</span></a></li>
+					<li><a href="DatabaseDesign"><span>MySQL Development</span></a></li>
+					<li><a href="DatabaseDesign"><span>Oracle Development</span></a></li>
+					<li><a href="DatabaseDesign"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="ContentManagement" class="parent"><span>Content Management Systems<br>Development</span></a>
+					<div>
+					<ul>
+					<li><a href="ContentManagement"><span>Alfresco Development</span></a></li>
+					<li><a href="ContentManagement"><span>Liferay Development</span></a></li>
+					<li><a href="ContentManagement"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="BrowserDevelopment" class="parent"><span>Browser Development</span></a>
+					<div>
+					<ul>
+					<li><a href="BrowserDevelopment"><span>Mozilla(XUL) Development</span></a></li>
+					<li><a href="BrowserDevelopment"><span>Internet Explorer Development</span></a></li>
+					<li><a href="BrowserDevelopment"><span>Others</span></a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a href="Ecommerce"><span>E-commerce Solutions</span></a></li>
+				<li><a href="SAPSolutions"><span>SAP Solutions</span></a></li>
+				<li><a href="OracleSolutions"><span>Oracle Solutions</span></a></li>
+				</ul>
+				</div>
+				</li>
+				<li><a href="CloudComputing"><span>Cloud Computing</span></a></li>
+				</ul>
+			</div>
+			</li>
+			<li><a href="HireDevelopers"><span>Hire Developers</span></a></li>
+			<li class="last"><a href="InquireNow"><span>Inquire Now</span></a></li>
+		</ul>
+
+</div>
+	<section class="slideshow">
+		<section class="ruled1">
+			<section id="wowslider-container1">
+				<section class="ws_images">
+					<a href="MobileDevelopment"><%=image_tag "mobilepage.jpg", :id => "wows0"%></a>
+					<a href="WebDevelopment"><%=image_tag "webpage.jpg" , :id => "wows1"%></a>
+					<a href="HireDevelopers"><%=image_tag "hirepage.jpg", :id => "wows4"%></a>
+				</section>
+				<section class="ws_bullets">
+					<a href="MobileDevelopment" ><%=image_tag "mobilepage.jpg", :id => "wows0"%></a>
+					<a href="WebDevelopment" ><%=image_tag "webpage.jpg" , :id => "wows1"%></a>
+					<a href="HireDevelopers" ><%=image_tag "hirepage.jpg", :id => "wows4"%></a>
+				</section>
+			</section>
+		</section>
+	</section>
+	
+<div class="scroll">
+</div>		
+<div class="scroll2">	
+	
+		<div class="scroll3">
+		<table>
+				<td>
+					<span class="extramoney"><%= image_tag "extra.png", :width=> "30px" %></span>
+				</td>
+				<td class="newsslide">
+					<div class="fadehide">
+					
+						<script type="text/javascript">
+						   $(document).ready(
+							function(){
+								$('#news').innerfade({
+							       animationtype: 'fade',
+								    speed: 1000,
+								    timeout: 5000,
+							            type: 'random'
+									});
+											
+										
+									});
+						  	</script>
+					
+						<table >	
+						 <tr>
+						  <td  class="newsfade">
+						   <ul id="news" type="none">					
+						    <li class="newsid">
+						      <p>Enjoy our award winning free 6th day of work for every week. Get more for your investment.</p>
+						    </li>
+						    <li class="newsid">
+						      <p>Work with experts. We build your business.</p>
+						    </li>
+						    <li class="newsid">
+						      <p>Hire Developers from as low as $9/hr. Save big!</p>
+						
+						    </li>
+						   </ul>
+						  </td>
+						 </tr>
+						</table>
+						</div>
+				</td>
+			</table>
+		</div>
+		
+		<div class="scroll4">	
+		 <div class="customersatisfaction">
+           <div class="customersatisfaction-cbg">
+				<ul id="mycarousel" class="jcarousel-skin-tango">
+				<li><a href="Html5Development" title="Html5 Development"><img src="img/html5small.png" width="130" height="90" alt="Html5 Development" /></a></li>
+				<li><a href="Css3Development" title="Css3 Development"><img src="img/css3small.png" width="130" height="90" alt="Css3 Development" /></a></li>
+				
+                </ul>
+            </div>
+
+          </div>
+       
+
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+$(document).ready(function() {
+    $('#mycarousel').jcarousel({
+        auto: 2,
+        wrap: 'last',
+		//easing: 'swing',
+        initCallback: mycarousel_initCallback
+    });
+});
+
+</script>
+</div>
+
+</div>
+				
+
+	
+		<section id="pagecontent">
+			<table>
+					<td id="homebox9">
+						<img src="img/mobilenew1.png" alt="Mobile Development"/>
+					</td>
+					<td id="homebox3">
+						<b style="color:#C00309; font-size:14px;">HIRE WORLD-CLASS DEVELOPERS</b><br>
+						Our team of smart thinking and hard-working engineers can guarantee the highest possible service for all your needs. Our goal is exceed all expectations to ensure 100% client satisfaction in our  hopes to build a long and successful relationship with you!...<span id="homehireread1"><a href="HireDevelopers">See More</a></span>
+					</td>
+					<td id="homebox8">
+						<img src="img/webnew1.png">
+					</td>
+			</table>
+			<table class="tablealign">
+					<td class="homebox4">
+						<b style="color:#C00309; font-size:14px;">BUILD YOUR OWN MOBILE ENTERPRISE</b><br>
+						Allow us to ease your way into the mobile content industry by providing you with the most innovative and creative mobile content. Our team of highly- skilled mobile app developers are ready to deliver indemand content that can help you bring your mobile business to the next level!...<span id="homehireread1"><a href="MobileDevelopment">See More</a></span>
+					</td>
+					<td id="homebox2">
+					<img src="img/hirenew1.png" alt=" Hire Developers "/>
+					</td>
+					<td id="homebox7">
+						<b style="color:#C00309; font-size:14px;">WEB 3.0 DEVELOPMENT</b><br>
+						The future of Semantic Web (Web 3.0) mostly focuses on this technology going mainstream. Web 3.0 is slowly grasping a whole new level of multi-tiered Web applications. Focusing on the long-term state of things, Semantic Web technologies (Web 3.0) are maturing and its technological power could be used to describe...<span id="homehireread1"><a href="WebDevelopment">See More</a></span>
+					</td>
+			</table>
+		</section>
+	</section>
+</section>	
+</body>
+</html>

@@ -1,0 +1,15 @@
+.customersatisfaction { display: block; align:center; overflow:hidden; width: 400px; }
+.customersatisfaction-tc { background-position: -510px -197px; height: 28px; color: #6b90ce; font-size: 13px; line-height: 28px; text-indent: 15px; font-family: "LucidaGrandeBold"; }
+.customersatisfaction-bc { height: 4px; } /* background: url(../img/satisfationbox.gif) no-repeat bottom; */
+.customersatisfaction-cbg { padding: 0px 0px; font-size: 11px; line-height: 14px; height: 70px; }
+.jcarousel-skin-tango li { list-style-type: none; }
+.jcarousel-skin-tango .jcarousel-container-horizontal { width: 200px; padding:0 10px; }
+.jcarousel-skin-tango .jcarousel-container-vertical { width: 100px; height: 70px; padding: 0px 0px; }
+.jcarousel-skin-tango .jcarousel-clip { overflow: hidden; }
+.jcarousel-skin-tango .jcarousel-clip-horizontal { width:  200px; height: 100px; }
+.jcarousel-skin-tango .jcarousel-clip-vertical { width:  100px; height: 80px; }
+.jcarousel-skin-tango .jcarousel-item { width: 190px; height: 90px; float:left; overflow: hidden; }
+.jcarousel-skin-tango .jcarousel-item-horizontal { margin:0 5px; }
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal { margin-left: 10px; margin-right: 0; }
+.jcarousel-skin-tango .jcarousel-item-vertical { margin-bottom: 10px; }
+.jcarousel-skin-tango .jcarousel-item-placeholder { background: #fff; color: #000; }
